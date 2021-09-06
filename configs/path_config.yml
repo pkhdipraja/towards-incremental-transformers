@@ -1,0 +1,49 @@
+atis-intent:
+  train: train.atis_intent
+  valid: valid.atis_intent
+  test: test.atis_intent
+
+atis-slot:
+  train: train.atis_slot
+  valid: valid.atis_slot
+  test: test.atis_slot
+
+chunk:
+  train: train.chunk
+  valid: valid.chunk
+  test: test.chunk
+
+ner-nw-wsj:
+  train: train.ner_nw_wsj
+  valid: valid.ner_nw_wsj
+  test: test.ner_nw_wsj
+
+pos-nw-wsj:
+  train: train.pos_nw_wsj
+  valid: valid.pos_nw_wsj
+  test: test.pos_nw_wsj
+
+proscons:
+  train: train.proscons
+  valid: valid.proscons
+  test: test.proscons
+
+sent-negpos:
+  train: train.sent_negpos
+  valid: valid.sent_negpos
+  test: test.sent_negpos
+
+snips-intent:
+  train: train.snips_intent
+  valid: valid.snips_intent
+  test: test.snips_intent
+
+snips-slot:
+  train: train.snips_slot
+  valid: valid.snips_slot
+  test: test.snips_slot
+
+srl-nw-wsj:
+  train: train.srl_nw_wsj
+  valid: valid.srl_nw_wsj
+  test: test.srl_nw_wsj
