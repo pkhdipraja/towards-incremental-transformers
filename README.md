@@ -37,7 +37,7 @@ or with absolute path:
 $ python3 main.py --RUN test --MODEL_CONFIG <model_config> --DATASET <dataset> --CKPT_PATH <path_to_checkpoint>.ckpt
 ```
 
-To obtain incremental evaluation on the test set, use the flag `--INCR_EVAL`
+To obtain incremental evaluation on the test sets, use the flag `--INCR_EVAL`
 
 ### Data
 
@@ -48,8 +48,8 @@ As it is, the code can run experiments on:
 * Chunk, [CoNLL 2000](https://www.clips.uantwerpen.be/conll2000/chunking/) (chunk)
 * Named Entity Recognition, [OntoNotes 5.0](https://catalog.ldc.upenn.edu/LDC2013T19), WSJ (ner-nw-wsj)
 * PoS Tagging, [OntoNotes 5.0](https://catalog.ldc.upenn.edu/LDC2013T19), WSJ (pos-nw-wsj)
-* Slot filling and intent detection, [ATIS](https://aclanthology.org/H90-1021/) (atis-slot & atis-intent)
-* Slot filling and intent detection, [SNIPS](https://github.com/snipsco/nlu-benchmark) (snips-slot & snips-intent)
+* Slot filling and intent detection, [ATIS](https://aclanthology.org/H90-1021/) (atis-slot & atis-intent) from [here](https://github.com/ZephyrChenzf/SF-ID-Network-For-NLU)
+* Slot filling and intent detection, [SNIPS](https://github.com/snipsco/nlu-benchmark) (snips-slot & snips-intent) from [here](https://github.com/ZephyrChenzf/SF-ID-Network-For-NLU)
 * Sentiment classification, [Pros/Cons](http://www.cs.uic.edu/~liub/FBS/pros-cons.rar) (proscons)
 * Sentiment classification, [Positive/Negative](http://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences) (sent-negpos)
 

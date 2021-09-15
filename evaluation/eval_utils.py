@@ -193,7 +193,7 @@ def get_partial_outputs_recurrent(cfgs, loader, model, task, label_size, token2i
                         outs += out_i
 
                         # logits_i = model(outs, i=length, recurrent=True, valid=True)
-                        logits_i = model.out_proj(outs/length)
+                        logits_i = model.out_proj(outs/(i+1))
                         logits_i = torch.argmax(logits_i, dim=1)
 
                         # Save partial outputs

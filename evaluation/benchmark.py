@@ -111,7 +111,7 @@ def speed_benchmark_recurrent(cfgs, loader, model, task, label_size, token2idx):
 
                     outs += out_i
 
-                    logits_i = model.out_proj(outs/i)
+                    logits_i = model.out_proj(outs/(i+1))
                     logits_i = torch.argmax(logits_i, dim=1)
 
             end.record()
@@ -266,7 +266,7 @@ def incr_speed_benchmark_recurrent(cfgs, loader, model, task, label_size, token2
                     )
 
                     outs += out_i
-                    logits_i = model.out_proj(outs/i)
+                    logits_i = model.out_proj(outs/(i+1))
                     logits_i = torch.argmax(logits_i, dim=1)
 
                 end.record()

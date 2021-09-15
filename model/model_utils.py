@@ -83,6 +83,7 @@ def make_mask(feature):
 
 
 def add_null_tokens(x, delay, null_token):
+    "Add null tokens as in Turek et al. (2020)."
     delay_mask = torch.zeros(x.shape, dtype=torch.bool)
     seq_len = torch.sum(torch.abs(x) != 0, dim=-1).view(-1, 1)
     row_idx = torch.arange(x.size(0), dtype=torch.long).view(-1, 1)
