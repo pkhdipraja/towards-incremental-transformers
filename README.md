@@ -70,18 +70,18 @@ with an extra \n between sequences.
 If this repository is helpful for your research, we would really appreciate if you could cite the paper:
 
 ```
-@inproceedings{kahardipraja21,
-    title = "Towards Incremental Transformers: An Empirical Analysis of Transformer Models for Incremental NLU",
+@inproceedings{kahardipraja-etal-2021-towards,
+    title = "Towards Incremental Transformers: An Empirical Analysis of Transformer Models for Incremental {NLU}",
     author = "Kahardipraja, Patrick  and
       Madureira, Brielen  and
       Schlangen, David",
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2021",
-    address = "Online",
+    address = "Online and Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
-    url = "[To Appear]",
-    pages = "[To Appear]",
+    url = "https://aclanthology.org/2021.emnlp-main.90",
+    pages = "1178--1189",
 }
 ```
 
